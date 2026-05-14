@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/L1/L1",
+    "pages/L2/L2",
+    "pages/L3/L3",
+    "pages/XiuGaiUser/XiuGaiUser"
+  ],
+  
+  "window": {
+    "navigationBarBackgroundColor": "#5599FF",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "微信接口功能演示",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#ff0000",
+    "selectedColor": "#ffff00",
+    "backgroundColor": "#5599FF",
+    "list": [
+      {
+      "pagePath": "pages/L1/L1",
+      "text": "第一课",
+      "iconPath": "/static/pic/chang.png",
+      "selectedIconPath": "/static/pic/che.png"
+      },
+      {
+        "pagePath": "pages/L2/L2",
+        "text": "第二课",
+        "iconPath": "/static/pic/xiu.png",
+        "selectedIconPath": "/static/pic/xiu.png"
+        },
+        {
+          "pagePath": "pages/L3/L3",
+          "text": "第三课",
+          "iconPath": "/static/pic/hun.png",
+          "selectedIconPath": "/static/pic/yu.png"
+          }
+    ]
+  }
+}
